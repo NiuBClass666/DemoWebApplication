@@ -1,4 +1,4 @@
-# THis is a simple NodeJS web application
+# THis is a Insight Data Science fellow's project
 
-NodeJS template credit to miiro@getintodevops.com
+credit to ZhangWS
 
