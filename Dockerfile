@@ -12,6 +12,7 @@ WORKDIR /app
 #install python env
 RUN apt -y  install libpq-dev python3-dev
 RUN pip3 install --upgrade setuptools
+RUN pip install --upgrade pip\
 
 #install requirements.txt
 RUN pip3 install -r requirements.txt
