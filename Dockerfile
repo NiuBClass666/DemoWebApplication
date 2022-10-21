@@ -15,7 +15,7 @@ RUN pip3 install --upgrade setuptools
 RUN pip3 install --upgrade pip
 
 #install requirements.txt
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
 # tell docker what port to expose
 EXPOSE 5000
